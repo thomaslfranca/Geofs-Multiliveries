@@ -9,7 +9,7 @@ async function multiliveries() {
 		o = !1,
 		a = 0,
 		n = !1;
-	await fetch("https://raw.githubusercontent.com/Spice9/Geofs-Multiliveries/main/dependencies/liveries.json").then((e => e.json())).then((i => e = i));
+	await fetch("https://raw.githubusercontent.com/thomaslfranca/Geofs-Multiliveries/main/dependencies/liveries.json").then((e => e.json())).then((i => e = i));
 	void 0 === window.localStorage.mlFavorites && (window.localStorage.mlFavorites = []);
 	let s = window.localStorage.mlFavorites.split(","),
 		r = document.createElement("div"),
